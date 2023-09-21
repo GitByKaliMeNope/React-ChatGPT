@@ -57,7 +57,7 @@ class ChatGPTComponent extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className='container'>
         <h1>ChatGPT React-Komponente</h1>
         <form onSubmit={this.handleSubmit}>
         <input
